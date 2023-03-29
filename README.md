@@ -12,17 +12,17 @@ Maven 3.9.0
 Use the maven tool to compile and create the jar
 
 ```bash
-cd nubank-tech-assesstment-jmf
+cd hexagonal-architecture
 mvn clean compile install
 ```
 
-Now you will have the artifact can be run using java in **target/nubank-tech-assessment.jar**
+Now you will have the artifact can be run using java in **target/hexagonal-architecture.jar**
 ## Testing
 
 Use the maven tool to test the different test in the project
 
 ```bash
-cd nubank-tech-assesstment-jmf
+cd hexagonal-architecture
 mvn clean test
 ```
 
@@ -31,7 +31,7 @@ mvn clean test
 Use the java tool to run the Java Artifact
 
 ```bash
-java -jar target/nubank-tech-assessment.jar com.bank.Application
+java -jar target/hexagonal-architecture.jar com.bank.Application
 ```
 
 
